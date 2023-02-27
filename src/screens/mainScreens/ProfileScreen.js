@@ -19,7 +19,7 @@ import {
 } from "react-native";
 import { authSignOutUser } from "../../../redux/auth/authOperations";
 
-import { authSlice } from "../../redux/auth/authReducer";
+import { authSlice } from "../../../redux/auth/authReducer";
 
 import { updateProfile } from "firebase/auth";
 import { db, storage, auth } from "../../../firebase/config";

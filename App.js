@@ -7,14 +7,14 @@ import * as SplashScreen from 'expo-splash-screen';
 import { Provider } from 'react-redux';
 
 import Main from './Main';
-import { store } from './src/redux/store';
+import { store} from './redux/store';
 
 export default function App() {
    
     const [fontsLoaded] = useFonts({
         'Roboto-Regular': require("./assets/fonts/Roboto-Regular.ttf"),
-        'Roboto-Medium': require("./assets/fonts/Roboto/Roboto-Medium.ttf"),
-        'Roboto-Bold': require("./assets/fonts/Roboto/Roboto-Bold.ttf"),
+        'Roboto-Medium': require("./assets/fonts/Roboto-Medium.ttf"),
+        'Roboto-Bold': require("./assets/fonts/Roboto-Bold.ttf"),
     });
 
     const onLayoutRootView = useCallback(async () => {

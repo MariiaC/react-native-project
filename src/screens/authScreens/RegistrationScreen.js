@@ -4,17 +4,17 @@ import {
   StyleSheet,
   Text,
   View,
-  ImageBackground,
+  
   TextInput,
   TouchableOpacity,
   KeyboardAvoidingView,
   Keyboard,
   TouchableWithoutFeedback,
   Dimensions,
-  Button,
+ 
 } from "react-native";
 import { useDispatch } from "react-redux";
-import Svg, { Path } from "react-native-svg";
+// import Svg, { Path } from "react-native-svg";
 import { authSignUpUser } from "../../../redux/auth/authOperations";
 // img
 import AvatarAddIcon from "../../../assets/images/add.svg";

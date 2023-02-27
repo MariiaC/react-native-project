@@ -18,7 +18,7 @@ import {
 } from "react-native";
 
 import { db, storage } from "../../../firebase/config";
-import { ref, getDownloadURL, uploadBytes } from "firebase/storage";
+// import { ref, getDownloadURL, uploadBytes } from "firebase/storage";
 import {
   collection,
   doc,

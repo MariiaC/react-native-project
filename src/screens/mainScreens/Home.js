@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, FlatList, Image,Button } from "react-native";
-import db from '../../../firebase/config'
-import { createStackNavigator } from '@react-navigation/stack';
+// import db from '../../../firebase/config'
+// import { createStackNavigator } from '@react-navigation/stack';
 
 import { useDispatch } from 'react-redux';
-import { authSignOutUser } from '../../redux/auth/authOperations';
+import { authSignOutUser } from '../../../redux/auth/authOperations';
 
-import PostsScreen from './PostsScreen';
+import PostsScreen from '../nestedScreens/PostsScreen';
 import CommentsScreen from '../nestedScreens/CommentsScreen';
 import MapScreen from '../nestedScreens/MapScreen';
 

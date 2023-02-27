@@ -2,15 +2,14 @@ import React, { useEffect, useState} from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { NavigationContainer } from "@react-navigation/native";
 // import { useRoute } from "./router";
-import AuthStackNavigator from '../router/AuthStackNavigator';
- import MainTabNavigator from '../router/MainTabNavigator';
+import AuthStackNavigator from './router/AuthStackNavigator';
+ import MainTabNavigator from './router/MainTabNavigator';
 
 // import { db, auth } from './firebase/config';
 // import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 import { authStateChangeUser } from './redux/auth/authOperations';
 
-import { authStateChangeUser } from './redux/auth/authOperations';
 
 const Main = () => {
 
